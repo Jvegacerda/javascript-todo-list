@@ -32,7 +32,7 @@ const renderTareas = ()=>{
          html += `
          <li id="${tarea.id}">         
          <span class="${tarea.completa ? 'completa' : ''}">${tarea.texto}</span>
-         <button class="completar">Completar</button>
+         <i class="fa-regular fa-circle-check completar"></i>
          <i class="fa-regular fa-circle-xmark eliminar"></i>
          </li>
          `

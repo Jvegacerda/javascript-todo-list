@@ -20,16 +20,18 @@ li{
 }
 
 .completa {
-    color: green;
+    color: rgb(6, 70, 9);
+    text-decoration: underline 3px rgb(229, 255, 0); 
+    font-size: large;
 }
 
 .completar {
-    border: 2px solid green;
+    color: green;
+    margin: 5px;
 }
 
 .eliminar {
     color: red;
-    font-weight: bold;
 }
 
 #lista-tareas {
