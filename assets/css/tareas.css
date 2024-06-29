@@ -1,0 +1,37 @@
+.recuadro{
+    background-color: rgba(89, 92, 91, 0.295);
+    margin: 1rem;
+    padding: 1rem;
+    width: 700px;
+    border: 3px solid rgb(61, 21, 172);
+    border-radius: 10px;
+}
+
+.agregar{
+    border: 2px solid rgb(75, 42, 165);
+}
+
+.totalYtareas {
+    display: flex;
+}
+
+li{
+    margin-bottom: 1rem;
+}
+
+.completa {
+    color: green;
+}
+
+.completar {
+    border: 2px solid green;
+}
+
+.eliminar {
+    color: red;
+    font-weight: bold;
+}
+
+#lista-tareas {
+    margin-left: 10rem;
+}
